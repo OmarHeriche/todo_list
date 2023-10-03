@@ -1,0 +1,35 @@
+.form {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    background-image: url("images/my_tasks.jpg");
+    background-size: cover;
+}
+.btn {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-style: none;
+    height: 100%;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.input {
+    width: 400px;
+    height: 50px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 30px;
+    border-style: none;
+    font-weight: bold;
+}
